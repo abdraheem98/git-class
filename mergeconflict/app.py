@@ -21,4 +21,6 @@ def generate_random_number(length):
 def generate_random_email():
     domains = ['example.com', 'test.com', 'sample.com']
     return generate_random_string(10) + '@' + random.choice(domains)
+def random_id():
+    return generate_random_string(5) + generate_random_number(3)
 
