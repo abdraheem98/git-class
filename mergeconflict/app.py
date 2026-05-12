@@ -28,3 +28,5 @@ def generate_random_user():
         'email': generate_random_email()
     }
 
+def function2():
+    return generate_random_user()
