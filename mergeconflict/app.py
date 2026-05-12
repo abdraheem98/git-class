@@ -23,4 +23,6 @@ def generate_random_email():
     return generate_random_string(10) + '@' + random.choice(domains)
 def random_id():
     return generate_random_string(5) + generate_random_number(3)
+def function1():
+    return "This is function 1"
 
