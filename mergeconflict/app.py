@@ -26,3 +26,5 @@ def random_id():
 def function1():
     return "This is function 1"
 
+def function2():
+    return generate_random_user()
