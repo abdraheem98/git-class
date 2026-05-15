@@ -1,0 +1,1 @@
+db.students.insertOne({ name: "John Doe", age: 20, email: "john.doe@example.com" })
